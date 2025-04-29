@@ -1,0 +1,68 @@
+.camping {
+  height: calc(100vh - 40px);
+  overflow: hidden;
+  position: relative;
+}
+
+.camping h1 {
+  font-size: 3.6rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.scroll {
+  overflow-y: auto;
+  position: absolute;
+  top: 6.8rem;
+  left: 0;
+  right: 0;
+  max-height: calc(100vh - 40px - 15rem);
+}
+
+.pagination {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.list li {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.list li a {
+  position: absolute;
+  inset: 0;
+  color: transparent;
+}
+
+.list li h2 {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.list li span {
+  font-size: 1.4rem;
+  color: gray;
+}
+
+.list li p {
+  color: #323332;
+  margin-top: 1rem;
+}
+
+.list .hr {
+  border-top: 0.1px solid lightgray;
+}

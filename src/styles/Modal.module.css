@@ -1,0 +1,26 @@
+.overlay,
+.base {
+  position: fixed;
+  inset: 0;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.base {
+  z-index: 10;
+  display: flex;
+  align-items: center;
+}
+
+.base .content {
+  background-color: white;
+  border-radius: 0.8rem;
+  padding: 2.4rem;
+  max-width: 80rem;
+  min-height: 12rem;
+  width: calc(100% - 40px);
+  position: relative;
+  margin: 0 auto;
+}

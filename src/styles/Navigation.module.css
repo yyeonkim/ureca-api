@@ -1,0 +1,16 @@
+.nav {
+  background-color: #020716;
+  color: white;
+  height: 100%;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding: 2rem;
+  width: 20rem;
+}
+
+.active {
+  font-weight: 700;
+  color: darkorange;
+}
